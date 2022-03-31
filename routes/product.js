@@ -1,11 +1,8 @@
 var express = require('express');
 var router = express.Router();
+var controlador=require('../controllers/productController');
 
-router.get('/', function(req, res, next) {
-  res.render('product', { title: 'Express' });
-});
-router.get('/add', function(req, res, next) {
-    res.render('product-add', { title: 'Express' });
-  });
+router.get('/', controlador.product);
+router.get('/add', controlador.add);
 
 module.exports = router;
