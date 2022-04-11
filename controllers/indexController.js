@@ -1,4 +1,4 @@
-const data = require ('../db');
+const data = require ('../db/data');
 
 
 const controlador = {
