@@ -1,3 +1,5 @@
+const data = require ('../db')
+
 const controlador={
     product: function(req, res, next) {
         res.render('product', { title: 'Express' });
