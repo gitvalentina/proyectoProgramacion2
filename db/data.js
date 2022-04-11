@@ -21,3 +21,5 @@ const data = {
         {content: 'comment 1', username: 'user'}
     ],
 }
+
+module.exports = data;

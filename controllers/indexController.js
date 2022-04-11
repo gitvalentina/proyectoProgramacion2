@@ -1,4 +1,7 @@
-const controlador={
+const data = require ('../db');
+
+
+const controlador = {
     index: function(req, res, next) {
         res.render('index', { title: 'Express' });
       },
@@ -8,3 +11,14 @@ const controlador={
 }
 
 module.exports=controlador;
+
+
+/*  
+
+index: function(req, res, next) {
+  res.render('index', { products: data.products });
+},
+
+
+
+*/
