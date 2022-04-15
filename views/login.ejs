@@ -87,18 +87,26 @@
 			<!-- Show the "ultimos" products -->
 			<h2 class="col-12"> </h2>
 				<!-- form para login --> 
-				<form action="/user/profile." method="get" class="logInForm">
-					<label class= "letraForm"for="mail">E-mail:</label>
-					<input type="email" name="mail" placeholder= "Username" value="">
-		
-					<label class= "letraForm" for="password"> Password: </label>
-					<input type="password" name="password" placeholder= "Password" value=""> 
-		
-					<label class= "letraForm" for="checkbox"> Remember me </label>
-					<input type="checkbox" name="recordarme" value= "remindMe" >
-		
-					<button type="submit"> Sign in </button>
-				</form> 
+				<form class="iniciar" action="/users/login" method="POST">
+                    <h2>Inicia Sesión</h2>
+                    <p>
+                        <label for="">Email</label>
+                        <input type="email" name="email">
+                    </p>
+                    <p>
+                        <label for="">Contraseña</label>
+                        <input type="password" name="contra">
+                    </p>
+                    <p>
+                        <label >Recordarme</label>
+                        <input type="checkbox" name="recordame">
+                    </p>
+
+                    <p>
+                        <button type="submit">Iniciar sesion</button>
+                    </p>
+
+                </form>
 			
 
 
