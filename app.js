@@ -6,9 +6,14 @@ var logger = require('morgan');
 
 var indexRouter = require('./routes/index');
 <<<<<<< HEAD
+<<<<<<< HEAD
 var productRouter = require('./routes/product')
 var usersRouter = require('./routes/users')
 
+=======
+var usersRouter = require('./routes/users');
+var productRouter=require('./routes/product')
+>>>>>>> parent of ea75869 (OrdenPaki)
 =======
 var usersRouter = require('./routes/users');
 var productRouter=require('./routes/product')
@@ -28,8 +33,13 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', indexRouter);
 <<<<<<< HEAD
+<<<<<<< HEAD
 app.use('/products', productRouter);
 app.use('/users', usersRouter );
+=======
+app.use('/users', usersRouter);
+app.use('/product', productRouter)
+>>>>>>> parent of ea75869 (OrdenPaki)
 =======
 app.use('/users', usersRouter);
 app.use('/product', productRouter)

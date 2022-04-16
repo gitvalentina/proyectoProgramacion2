@@ -1,7 +1,11 @@
 var express = require('express');
 var router = express.Router();
 <<<<<<< HEAD
+<<<<<<< HEAD
 var controlador = require('../controllers/productController');
+=======
+var controlador=require('../controllers/productController');
+>>>>>>> parent of ea75869 (OrdenPaki)
 =======
 var controlador=require('../controllers/productController');
 >>>>>>> parent of ea75869 (OrdenPaki)

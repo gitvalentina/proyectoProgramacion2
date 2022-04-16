@@ -1,5 +1,6 @@
 const controlador={
 <<<<<<< HEAD
+<<<<<<< HEAD
   login: function(req, res, next) {
       res.render('login', { title: 'Express' });
     },
@@ -17,6 +18,8 @@ const controlador={
 
 module.exports=controlador;
 =======
+=======
+>>>>>>> parent of ea75869 (OrdenPaki)
     login: function(req, res, next) {
         res.render('login', { title: 'Express' });
       },
@@ -34,4 +37,7 @@ module.exports=controlador;
 
 module.exports=controlador;
 
+<<<<<<< HEAD
+>>>>>>> parent of ea75869 (OrdenPaki)
+=======
 >>>>>>> parent of ea75869 (OrdenPaki)

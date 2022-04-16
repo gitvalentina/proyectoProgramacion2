@@ -2,9 +2,15 @@ const data = require ('../db/data');
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 const controlador= {
     index: function(req, res, next) {
           res.render('index', {  title: 'Express' });
+=======
+const controlador = {
+    index: function(req, res, next) {
+        res.render('index', { title: 'Express' });
+>>>>>>> parent of ea75869 (OrdenPaki)
 =======
 const controlador = {
     index: function(req, res, next) {
