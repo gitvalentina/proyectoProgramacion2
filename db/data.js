@@ -1,10 +1,5 @@
 const data = {
-    user: { 
-        id: 1,
-        nombreDeUsuario: " LeylaFernandez_123",
-        email: "leyalfernandez@gmail.com",
-        imagen: "/images/users/usuario.jpg",
-        contra: "4871Leyla_"},
+    user: { username: 'user'},
     products: [
         {desription: 'product 1', photo: '/images/product1.jpg'},
         {desription: 'product 1', photo: '/images/product1.jpg'},
@@ -18,7 +13,7 @@ const data = {
         {desription: 'product 1', photo: '/images/product1.jpg'},
         {desription: 'product 1', photo: '/images/product1.jpg'}
     ],
-    comments: [
+    coments: [
         {content: 'comment 1', username: 'user'},
         {content: 'comment 1', username: 'user'},
         {content: 'comment 1', username: 'user'},

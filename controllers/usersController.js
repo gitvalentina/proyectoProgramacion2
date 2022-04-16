@@ -1,4 +1,5 @@
 const controlador={
+<<<<<<< HEAD
   login: function(req, res, next) {
       res.render('login', { title: 'Express' });
     },
@@ -15,3 +16,22 @@ const controlador={
 };
 
 module.exports=controlador;
+=======
+    login: function(req, res, next) {
+        res.render('login', { title: 'Express' });
+      },
+    profile: function(req, res, next) {
+        res.render('profile', { title: 'Express' });
+      },
+    profileEdit:function(req, res, next) {
+        res.render('profile-edit', { title: 'Express' });
+      },
+    register:function(req, res, next) {
+        res.render('register', { title: 'Express' });
+      },
+
+};
+
+module.exports=controlador;
+
+>>>>>>> parent of ea75869 (OrdenPaki)

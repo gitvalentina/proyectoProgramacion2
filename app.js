@@ -5,9 +5,14 @@ var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 
 var indexRouter = require('./routes/index');
+<<<<<<< HEAD
 var productRouter = require('./routes/product')
 var usersRouter = require('./routes/users')
 
+=======
+var usersRouter = require('./routes/users');
+var productRouter=require('./routes/product')
+>>>>>>> parent of ea75869 (OrdenPaki)
 
 var app = express();
 
@@ -22,8 +27,13 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', indexRouter);
+<<<<<<< HEAD
 app.use('/products', productRouter);
 app.use('/users', usersRouter );
+=======
+app.use('/users', usersRouter);
+app.use('/product', productRouter)
+>>>>>>> parent of ea75869 (OrdenPaki)
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
