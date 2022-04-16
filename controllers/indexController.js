@@ -13,7 +13,7 @@ const indexController = {
       },
 }
 
-module.exports=controlador;
+module.exports=indexController;
 
 
 /*  
