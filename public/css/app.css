@@ -42,7 +42,7 @@ ol {
 a {
   display: inline-block;
   text-decoration: none;
-  color: inherit;
+  color: white;
 }
 
 figure {
@@ -68,7 +68,7 @@ hr {
 /*====== Main Header ======*/
 .main-header {
   padding: 15px 0;
-  background-color: var(--yellow);
+  background-color: black;
 }
 
 .main-header_home-link,
@@ -154,7 +154,7 @@ hr {
 
 /*====== Banner ======*/
 .banner {
-  background-image: url(//images/img-home-banner.jpg);
+  background-image: url(//images/banner-autos.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
