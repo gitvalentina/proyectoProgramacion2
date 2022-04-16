@@ -1,10 +1,8 @@
-const data = require ('../db/data')
+const data = require ('../db')
 
 const controlador={
     product: function(req, res, next) {
-        res.render('product', { 
-          
-         });
+        res.render('product', { title: 'Express' });
       },
     add: function(req, res, next) {
         res.render('product-add', { title: 'Express' });
